@@ -1,0 +1,249 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #000;
+  -webkit-tap-highlight-color: transparent; }
+
+html, html body, html body .box {
+  width: 100%;
+  height: 100%; }
+  html body, html body .box body {
+    margin: 0; }
+    html body .box .tx_nav {
+      width: 100%;
+      height: 35px;
+      background: url("img/txw.png") no-repeat;
+      background-size: 100%; }
+      html body .box .tx_nav a img {
+        width: 20px;
+        height: 20px;
+        float: right;
+        display: block;
+        margin: 5px 4px 0 0; }
+    html body .box .nav {
+      width: 100%;
+      height: 40px; }
+      html body .box .nav .nav_c1 {
+        width: 91%;
+        float: left; }
+        html body .box .nav .nav_c1 ul {
+          width: auto;
+          height: 40px;
+          overflow: hidden; }
+          html body .box .nav .nav_c1 ul li {
+            flex: 1;
+            text-align: center;
+            flex-direction: column;
+            width: 55px;
+            height: 40px;
+            float: left;
+            font-size: 18px;
+            line-height: 30px; }
+      html body .box .nav img {
+        width: 27px;
+        height: 27px;
+        margin-top: 4px; }
+    html body .box .tx_a1, html body .box .tx_a1 ul li {
+      width: 100%;
+      height: auto;
+      float: left;
+      margin-top: 13px;
+      display: flex; }
+      html body .box .tx_a1 ul, html body .box .tx_a1 ul li ul {
+        width: auto;
+        height: auto;
+        overflow: hidden; }
+        html body .box .tx_a1 ul li {
+          float: left; }
+          html body .box .tx_a1 ul li a {
+            position: relative; }
+            html body .box .tx_a1 ul li a img {
+              width: 100%; }
+            html body .box .tx_a1 ul li a .title {
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              width: 97%;
+              height: auto;
+              position: absolute;
+              bottom: 10px;
+              color: #fff;
+              font-size: 15px;
+              margin-left: 10px; }
+    html body .box .tx_c2 {
+      width: 100%;
+      height: auto;
+      border-top: 1px solid #9D9D9D;
+      border-bottom: 1px solid #9D9D9D;
+      float: left;
+      margin-top: 13px; }
+      html body .box .tx_c2 a {
+        padding: 12px;
+        height: auto;
+        float: left; }
+        html body .box .tx_c2 a span {
+          width: 60%;
+          height: 50px;
+          float: left;
+          font-size: 18px; }
+        html body .box .tx_c2 a .c2-le {
+          width: 100%;
+          height: auto;
+          float: left; }
+          html body .box .tx_c2 a .c2-le span {
+            width: auto;
+            height: auto;
+            font-size: 10px;
+            margin-right: 10px;
+            float: left; }
+            html body .box .tx_c2 a .c2-le span:nth-child(1) {
+              background: red;
+              color: #FFF; }
+            html body .box .tx_c2 a .c2-le span:nth-child(2) {
+              color: #9D9D9D; }
+        html body .box .tx_c2 a img {
+          width: auto;
+          height: 70px;
+          float: right; }
+    html body .box .tx_weather {
+      width: 100%;
+      height: auto;
+      border-top: 1px solid #9D9D9D;
+      border-bottom: 1px solid #9D9D9D;
+      float: left;
+      margin-top: 13px; }
+      html body .box .tx_weather .weather-top {
+        padding: 12px;
+        height: 50px;
+        float: left;
+        width: 93%; }
+        html body .box .tx_weather .weather-top .wth-l {
+          height: auto; }
+          html body .box .tx_weather .weather-top .wth-l h2 {
+            width: 45px;
+            height: auto;
+            float: left;
+            margin: 0; }
+          html body .box .tx_weather .weather-top .wth-l img {
+            width: auto;
+            height: auto;
+            float: left; }
+          html body .box .tx_weather .weather-top .wth-l span {
+            color: #8E8E8E;
+            margin: 0 5px;
+            width: auto;
+            height: auto;
+            float: left; }
+          html body .box .tx_weather .weather-top .wth-l p {
+            width: 40px;
+            height: auto;
+            background: #66bd00;
+            color: #fff;
+            text-align: center;
+            border-radius: 3px;
+            float: left;
+            margin: 0; }
+          html body .box .tx_weather .weather-top .wth-l .wth-r {
+            width: auto;
+            height: auto;
+            float: right; }
+            html body .box .tx_weather .weather-top .wth-l .wth-r img {
+              width: auto;
+              height: auto; }
+            html body .box .tx_weather .weather-top .wth-l .wth-r h3 {
+              color: #bfbfbf;
+              font-size: 10px;
+              margin: 0;
+              float: right;
+              margin-top: 10px; }
+      html body .box .tx_weather .weather-bottom {
+        width: 100%;
+        height: auto;
+        float: left;
+        text-align: center; }
+        html body .box .tx_weather .weather-bottom span {
+          width: 40px;
+          height: auto;
+          float: left;
+          color: #9D9D9D; }
+        html body .box .tx_weather .weather-bottom p {
+          width: 100px;
+          height: auto;
+          float: right;
+          color: #fff;
+          background: #A6C7E1;
+          font-size: 14px;
+          border-radius: 10px;
+          margin: 0; }
+    html body .box .new {
+      width: 100%;
+      height: auto;
+      border-top: 1px solid #9D9D9D;
+      border-bottom: 1px solid #9D9D9D;
+      float: left;
+      margin-top: 13px; }
+      html body .box .new h2 {
+        width: 92%;
+        height: auto;
+        margin: 10px 0 0 8px;
+        font-size: 20px; }
+        html body .box .new h2 span {
+          width: auto;
+          height: 20px;
+          border: 2px solid #000;
+          margin-right: 20px; }
+      html body .box .new .new-timer {
+        width: 93%;
+        height: auto;
+        padding: 12px;
+        border-bottom: 1px solid #A5A2A5; }
+        html body .box .new .new-timer img {
+          float: left; }
+        html body .box .new .new-timer p {
+          width: 90%;
+          height: auto;
+          margin: 4px 0 19px;
+          color: blue; }
+        html body .box .new .new-timer .content {
+          width: 100%;
+          height: auto; }
+          html body .box .new .new-timer .content a {
+            height: auto;
+            float: left;
+            padding: 10px; }
+            html body .box .new .new-timer .content a span {
+              width: 60%;
+              height: auto;
+              float: left; }
+            html body .box .new .new-timer .content a img {
+              width: 30%;
+              float: right; }
+        html body .box .new .new-timer h4 {
+          width: 100%;
+          height: auto;
+          color: #8389A6; }
+    html body .box .more {
+      width: 100%;
+      text-align: center;
+      padding: 10px 0 20px 0; }
+      html body .box .more div {
+        display: inline-block;
+        height: 28px;
+        line-height: 28px;
+        padding: 0 20px;
+        border: 1px solid #448aff;
+        border-radius: 14px;
+        color: #448aff;
+        font-size: 12px;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        box-sizing: content-box; }
+
+/*# sourceMappingURL=tx.css.map */

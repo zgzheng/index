@@ -1,0 +1,33 @@
+$sc:50;
+html{
+  width:100%;
+  height:100%;
+  body{
+    margin: 0;
+    background:rgb(247,243,247) ;
+    .header{
+      width: 100%;
+      height: 100%;
+      img{
+        &:nth-child(1){
+          width: 310/$sc+rem;
+          height: 305/$sc+rem;
+          margin-top: 335/$sc+rem;
+          margin-left: 210/$sc+rem;
+        }
+        &:nth-child(2){
+          width:220/$sc+rem;
+          height: 50$sc+rem;
+          margin-left:255/$sc+rem;
+          margin-top: 15/$sc+rem;
+        }
+        &:nth-child(3){
+          width:370/$sc+rem;
+          height: 38/$sc+rem;
+          margin-left:180/$sc+rem;
+          margin-top: 126/$sc+rem;
+        }
+      }
+    }
+  }
+}

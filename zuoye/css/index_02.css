@@ -1,0 +1,74 @@
+ul {
+  list-style: none; }
+
+html, html body .box {
+  width: 100%;
+  height: 100%; }
+  html body, html body .box body {
+    margin: 0; }
+    html body .box .gin-nav {
+      width: 100%;
+      height: 1.5rem;
+      background: url("../img/sj-9.jpg") no-repeat;
+      background-size: 15rem; }
+      html body .box .gin-nav .nav_1, html body .box .gin-nav .nav_2, html body .box .gin-nav .nav_3 {
+        width: 33.33%;
+        height: 1.5rem;
+        float: left; }
+        html body .box .gin-nav .nav_1 span, html body .box .gin-nav .nav_2 span, html body .box .gin-nav .nav_3 span {
+          width: 1.8rem;
+          height: 1.5rem;
+          border: none;
+          float: left; }
+        html body .box .gin-nav .nav_1:nth-child(1) span, html body .box .gin-nav .nav_2:nth-child(1) span, html body .box .gin-nav .nav_3:nth-child(1) span {
+          background: url("../img/sj-9.jpg") no-repeat 10px 3px;
+          background-size: 16rem; }
+        html body .box .gin-nav .nav_1:nth-child(2) span, html body .box .gin-nav .nav_2:nth-child(2) span, html body .box .gin-nav .nav_3:nth-child(2) span {
+          background: url("../img/sj-9.jpg") no-repeat center;
+          background-size: 16rem;
+          margin-left: 1.9rem; }
+        html body .box .gin-nav .nav_1:nth-child(3) span, html body .box .gin-nav .nav_2:nth-child(3) span, html body .box .gin-nav .nav_3:nth-child(3) span {
+          background: url("../img/sj-9.jpg") no-repeat right;
+          background-size: 16rem;
+          margin-left: 3.2rem; }
+    html body .box .gin-picture {
+      width: 100%;
+      height: 3.36rem;
+      background: url("../img/sj-2.jpg") no-repeat;
+      background-size: 100%; }
+      html body .box .gin-picture .pic_x1, html body .box .gin-picture .pic_x2, html body .box .gin-picture .pic_x3 {
+        width: 33.33%;
+        height: 3.36rem;
+        float: left; }
+        html body .box .gin-picture .pic_x1 span, html body .box .gin-picture .pic_x2 span, html body .box .gin-picture .pic_x3 span {
+          width: 3.9rem;
+          height: 1.4rem;
+          border: none;
+          float: left;
+          text-align: center;
+          font-size: 40px;
+          color: #fff;
+          line-height: 1.4rem;
+          margin-top: 0.9rem; }
+        html body .box .gin-picture .pic_x1:nth-child(1) span, html body .box .gin-picture .pic_x2:nth-child(1) span, html body .box .gin-picture .pic_x3:nth-child(1) span {
+          border: 2px solid #fff;
+          margin-left: 1.1rem;
+          border-radius: 60px; }
+        html body .box .gin-picture .pic_x1:nth-child(2) span, html body .box .gin-picture .pic_x2:nth-child(2) span, html body .box .gin-picture .pic_x3:nth-child(2) span {
+          margin-left: 0.56rem; }
+        html body .box .gin-picture .pic_x1:nth-child(3) span, html body .box .gin-picture .pic_x2:nth-child(3) span, html body .box .gin-picture .pic_x3:nth-child(3) span {
+          margin-right: 1.2rem; }
+    html body .box .gin-bea {
+      width: 100%;
+      height: auto;
+      float: left; }
+      html body .box .gin-bea .bea-a1, html body .box .gin-bea .bea-a1 img {
+        height: 6.9rem;
+        width: 7.5rem;
+        float: left; }
+      html body .box .gin-bea .bea-a2, html body .box .gin-bea .bea-a2 img {
+        height: 6.9rem;
+        width: 7.5rem;
+        float: left; }
+
+/*# sourceMappingURL=index_02.css.map */

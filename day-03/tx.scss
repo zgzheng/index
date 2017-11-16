@@ -1,0 +1,307 @@
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #000;
+  -webkit-tap-highlight-color: transparent;
+}
+@mixin slh{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@mixin kuang{
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #9D9D9D;
+  border-bottom: 1px solid #9D9D9D;
+  float: left;
+  margin-top: 13px;
+}
+@mixin weather{
+  width: auto;
+  height: auto;
+}
+html{
+  width: 100%;
+  height: 100%;
+  body{
+    @extend html;
+    margin: 0;
+    .box{
+      @extend html;
+      .tx_nav{
+        width: 100%;
+        height:35px;
+        background: url("img/txw.png") no-repeat;
+        background-size:100%;
+        a {
+          img {
+            width: 20px;
+            height: 20px;
+            float: right;
+            display: block;
+            margin: 5px 4px 0 0;
+          }
+        }
+      }
+      .nav{
+        width: 100%;
+        height: 40px;
+        //position: relative;
+        .nav_c1{
+          width: 91%;
+          float: left;
+          ul{
+            width: auto;
+            height: 40px;
+            //padding-left: 10px;
+            overflow: hidden;
+            li{
+              flex: 1;
+              text-align: center;
+              flex-direction: column;
+              width: 55px;
+              height: 40px;
+              float: left;
+              font-size: 18px;
+              line-height: 30px;
+            }
+          }
+        }
+        img{
+          width: 27px;
+          height: 27px;
+          margin-top:4px ;
+          //position: absolute;
+          //top: 3px;
+          //right: 0px;
+        }
+      }
+      .tx_a1{
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-top: 13px;
+        display: flex;
+        ul{
+          width: auto;
+          height: auto;
+          overflow: hidden;
+          li{
+            @extend.tx_a1;
+            float: left;
+            a{
+              position: relative;
+              img{
+                width: 100%;
+              }
+              .title {
+                @include slh;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                width: 97%;
+                height: auto;
+                position: absolute;
+                bottom: 10px;
+                color: #fff;
+                font-size: 15px;
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+      }
+      .tx_c2{
+        @include kuang;
+        a{
+          padding: 12px;
+          height: auto;
+          float: left;
+          span{
+            width: 60%;
+            height: 50px;
+            float: left;
+            font-size: 18px;
+            //margin-left: 11px;
+          }
+          .c2-le{
+            width: 100%;
+            height: auto;
+            float: left;
+            span{
+              width: auto;
+              height: auto;
+              font-size: 10px;
+              margin-right: 10px;
+              float: left;
+              &:nth-child(1){
+                background: red;
+                color: #FFF;
+              }
+              &:nth-child(2){
+                color: #9D9D9D;
+              }
+            }
+          }
+          img{
+            width: auto;
+            height: 70px;
+            float: right;
+          }
+        }
+
+      }
+      .tx_weather{
+        @include kuang;
+        .weather-top{
+          padding: 12px;
+          height: 50px;
+          float: left;
+          width: 93%;
+            .wth-l{
+              height: auto;
+              h2{
+                width: 45px;
+                height: auto;
+                float: left;
+                margin: 0;
+              }
+              img{
+                @include weather;
+                float: left;
+              }
+              span{
+                color: #8E8E8E;
+                margin: 0 5px;
+                @include weather;
+                float: left;
+              }
+              p{
+                width: 40px;
+                height: auto;
+                background: #66bd00;
+                color: #fff;
+                text-align: center;
+                border-radius: 3px;
+                float: left;
+                margin: 0;
+              }
+              .wth-r{
+                @include weather;
+                float: right;
+                img{
+                  @include weather;
+                }
+                h3{
+                  color: #bfbfbf;
+                  font-size: 10px;
+                  margin: 0;
+                  float: right;
+                  margin-top: 10px;
+                }
+            }
+          }
+        }
+        .weather-bottom{
+          width: 100%;
+          height:auto;
+          float: left;
+          text-align: center;
+          span{
+            width: 40px;
+            height: auto;
+            float: left;
+            color: #9D9D9D;
+          }
+          p{
+            width: 100px;
+            height: auto;
+            float: right;
+            color: #fff;
+            background: #A6C7E1;
+            font-size: 14px;
+            border-radius: 10px;
+            margin: 0;
+          }
+        }
+      }
+      .new{
+        @include kuang;
+        h2{
+          width: 92%;
+          height: auto;
+          margin: 10px 0 0 8px;
+          font-size:20px;
+          span{
+            width: auto;
+            height: 20px;
+            border:2px solid #000;
+            margin-right: 20px;
+          }
+        }
+        .new-timer{
+          width: 93%;
+          height: auto;
+          padding: 12px;
+          border-bottom: 1px solid #A5A2A5;
+          img{
+            float: left;
+          }
+          p{
+            width: 90%;
+            height: auto;
+            margin: 4px 0 19px;
+            color: blue;
+          }
+          .content{
+            width: 100%;
+            height: auto;
+            a{
+              height: auto;
+              float: left;
+              padding: 10px;
+              span {
+                width: 60%;
+                height: auto;
+                float: left;
+              }
+              img{
+                width: 30%;
+                float: right;
+              }
+            }
+
+          }
+          h4{
+            width: 100%;
+            height: auto;
+            color: #8389A6;
+          }
+        }
+      }
+      .more{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0 20px 0;
+        div{
+          display: inline-block;
+          height: 28px;
+          line-height: 28px;
+          padding: 0 20px;
+          border: 1px solid #448aff;
+          border-radius: 14px;
+          color: #448aff;
+          font-size: 12px;
+          -webkit-text-decoration: none;
+          text-decoration: none;
+          box-sizing: content-box;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+/*div{
+  font-family: Helvetica, sans-serif;
+  color: orange;
+}*/
+/*
+$fontStack:Helvetica, sans-serif;
+$primaryColor: red;
+
+body {
+  font-family: $fontStack;
+  color: $primaryColor;
+}*/
+html, html body {
+  width: 100%;
+  height: 100%; }
+  html body {
+    margin: 0; }
+
+/*# sourceMappingURL=index.css.map */
